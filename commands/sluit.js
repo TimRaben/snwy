@@ -13,7 +13,7 @@ module.exports.run = async (client, message, args) => {
     
     }
 
-    user.send(':white_check_mark: **||** Je hebt succesvol je ticket gesloten, zodra je nog een vraag hebt maak gerust opnieuw een ticket.');
+    message.member.send(':white_check_mark: **||** Je hebt succesvol je ticket gesloten, zodra je nog een vraag hebt maak gerust opnieuw een ticket.');
 
 }
 
