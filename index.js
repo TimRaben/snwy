@@ -1,6 +1,6 @@
 const discord = require("discord.js");
 const botConfig = require("./botConfig.json");
-
+ 
 //  Command handler
 const fs = require("fs");
 const { isFunction } = require("util");
