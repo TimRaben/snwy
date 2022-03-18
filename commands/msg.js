@@ -7,11 +7,9 @@ module.exports.run = async (client, message, args) => {
     var user = message.guild.member(message.mentions.users.first() || message.guild.members.get(args[0]));
 
 
-    user.send(`${args.slice(1).join(" ")}`) (err => {
+    user.send(`${args.slice(1).join(" ")}`)
 
-    if (err) return message.channel.send("⛔ **|** Deze persoon heeft PM's uitstaan...");
-
-    });
+    message.channel.send("Done!")
 
 
 }
