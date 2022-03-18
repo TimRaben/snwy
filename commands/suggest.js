@@ -23,6 +23,7 @@ module.exports.run = async (client, message, args) => {
             await msg.react('✅');
             await msg.react('❌');
             message.delete();
+            message.channel.send(":white_check_mark: **||** Done!");
         }).catch(err => {
             console.log(err);
         });
